@@ -1,0 +1,215 @@
+body{
+	background-color: whitesmoke;
+}
+
+/* Top navigation bar styles starts*/
+#topbar{
+	background-color: #2c3e50;
+}
+div.dropdown-menu.navbar-item{
+	background-color: #2c3e50;
+}
+div.dropdown-menu.navbar-item a{
+	padding: 15px;
+	border-bottom: solid 1px white;
+}
+div.dropdown-menu.navbar-item a:hover{
+	background-color: whitesmoke;
+	color:  #2c3e50;
+}
+.navbar a{
+    color: snow;
+    
+}
+
+
+
+/*Filters styles*/
+.filter{
+	padding: 0px;
+    background: snow;
+}
+.filter header{
+	padding: 10px;
+    background: #2c3e51;
+    color: white;
+}
+
+.jumbotron{
+	padding: unset;
+	background: #516d8a;
+    color: snow;
+}
+/*Contents styles*/
+.content{
+	margin:10px;
+	margin-top: 5%;
+}
+
+.recent{
+	margin:15px;
+}
+div span{
+	display:block;
+}
+.card-div{
+	margin-bottom: 15px;
+}
+
+
+
+/* Css code for login form */
+#login{
+	padding:0px;
+	background-color:whitesmoke;
+	margin-top: 5%;
+	margin-bottom:10%;
+}
+#login form{
+	margin: .8rem
+}
+#login header{
+	background: #2c3e51;
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+
+/* style code for register form */
+#register{
+	padding:0px;
+	background-color:whitesmoke;
+	margin-bottom:10%;
+}
+#register form{
+	margin: .8rem
+}
+#register header{
+	background: #2c3e51;
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+
+/*  add property styles*/
+.heading{
+	background: #8fbee8;
+	padding: 5px;
+	border-bottom: 5px solid brown;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+section{
+	margin: 10px 0px;
+}
+
+
+
+/*  view property*/
+.property-info{
+    background: gainsboro;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+.property-info header{
+    background-color: #a3aab1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid brown;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#next{
+	right: 0px;
+}
+#next, #back{
+	cursor: pointer;
+	position: absolute;
+	color: cornsilk;
+	bottom: 50%;
+}
+#next:hover, #back:hover{
+	background-color: black;
+	border-radius: 4px;
+}
+
+
+
+/*Profile styles and my properites*/
+.profile{
+	margin-bottom: 15px;
+}
+.profile header{
+	display: inline-block;
+    padding: 5px;
+}
+.profile-link{
+	background: lightsteelblue;
+    margin: 10px;
+}
+.profile-link a{
+   padding: 5px;
+   line-height: 2em;
+   display: block;
+   color: black;
+}
+.profile-link i{
+   float: right;
+   line-height: inherit;
+   margin-right: 10px;
+}
+.hide{
+	display: none;
+}
+
+.profile-header{
+	background: #8fbee8;
+	border-bottom: 5px solid brown;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+span.icon {
+    display: inline-block;
+    float: right;
+    background: grey;
+    color: white;
+    width: 35px;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer{
+	position: sticky;
+    top: 100%;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #2c3e51;
+    color: white;
+}
+
+
+
+/*My properities  styles*/
+.property{
+	background: gainsboro;
+    padding: 10px;
+    border-radius: 5px;	
+}
+
+
+/* Media query for small devices */
+@media (min-width: 576px){
+	
+	
+	
+    
+	
+}
+
+
+
+

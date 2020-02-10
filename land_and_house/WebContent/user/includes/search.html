@@ -1,0 +1,91 @@
+<!-- Filters div starts -->
+<div id="advance-search" class="filter col-12 col-md-10 rounded border mt-4 mb-4" style="display: none;">
+
+	<header class="w-100">Advanced Search</header>
+	<form class="form-horizontal col-12 row no-gutters" action="search.jsp">
+
+		<fieldset class="col-12 form-row">
+			<legend>Search Location</legend>
+			<div class="col-12 form-row">
+				<div class="form-group col-9">
+					<input type="search" name="location" placeholder="city/district/ward/street" class="form-control form-control-lg">
+				</div>
+				<div class="form-group col-3">
+					<input type="submit" name="search" value="Search" class="btn btn-primary form-control form-control-lg">
+				</div>
+			</div>
+		</fieldset>
+
+
+		<div class="form-group col-md-6">
+			<label class="mr-2">Property type</label>
+			<select class="form-control form-control-sm w-50" name="property-type" id="property-type-search">
+				<option selected>house</option>
+				<option>land-plot</option>
+			</select>
+		</div>
+
+		<fieldset class="col-md-6">
+			<div class="col form-row">
+				<div class="form-group col-6">
+					<label class="">Min Price</label>
+					<input type="number" name="price-min" class="form-control form-control-sm">
+				</div>
+				<div class="form-group col-6">
+					<label class="">Max Price</label>
+					<input type="number" name="price-max" class="form-control form-control-sm">
+				</div>
+			</div>
+		</fieldset>
+
+
+		<fieldset id="house-features-search" class="col-12 form-row">
+			<legend>House Features</legend>
+			<div class="col-12 form-row align-items-end">
+				<div class="form-group col-6 col-md-3 ">
+					<label class="mr-2">Number Bedroom</label>
+					<select class="form-control form-control-sm" name="bedroom">
+						<option selected value="0">ALL</option>
+						<option value="1">1+</option>
+						<option value="2">2+</option>
+						<option value="3">3+</option>
+						<option value="4">4+</option>
+						<option value="5">5+</option>
+						<option value="6">6+</option>
+						<option value="7">7+</option>
+					</select>
+				</div>
+				<div class="form-group col-6 col-md-3">
+					<label class="mr-2">Number of toilets</label>
+					<select class="form-control form-control-sm" name="toilet">
+						<option selected value="0">ALL</option>
+						<option value="1">1+</option>
+						<option value="2">2+</option>
+						<option value="3">3+</option>
+						<option value="4">4+</option>
+						<option value="5">5+</option>
+						<option value="6">6+</option>
+						<option value="7">7+</option>
+					</select>
+				</div>
+				<div class="form-group col-6 col-md-3">
+					<label class="mr-2">Electricity Supply</label>
+					<select class="form-control form-control-sm" name="electricity">
+						<option selected>BOTH</option>
+						<option>YES</option>
+						<option>NO</option>
+					</select>
+				</div>
+				<div class="form-group col-6 col-md-3">
+					<label class="mr-2">Water supply</label>
+					<select class="form-control form-control-sm" name="water">
+						<option selected>BOTH</option>
+						<option>YES</option>
+						<option>NO</option>
+					</select>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>
+			<!-- Filters div ends -->
